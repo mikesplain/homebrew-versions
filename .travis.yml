@@ -5,4 +5,3 @@ os: osx
 script:
   - PATH="cmd:$PATH" brew install kubernetes-cli14.rb
   - PATH="cmd:$PATH" brew list | grep kubernetes-cli14
-  - PATH="cmd:$PATH" brew uninstall kubernetes-cli14
