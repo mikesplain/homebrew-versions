@@ -4,4 +4,6 @@ os: osx
 # Install Strap and then test installing packages works.
 script:
   - PATH="cmd:$PATH" brew install kubernetes-cli14.rb
+  - PATH="cmd:$PATH" brew install firefox36.rb
   - PATH="cmd:$PATH" brew list | grep kubernetes-cli14
+  - PATH="cmd:$PATH" brew list | grep firefox36
