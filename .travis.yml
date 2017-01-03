@@ -3,7 +3,7 @@ os: osx
 
 # Install Strap and then test installing packages works.
 script:
-  - PATH="cmd:$PATH" brew install Forumla/kubernetes-cli14.rb
-  - PATH="cmd:$PATH" brew cask install Casks/firefox36.rb
-  - PATH="cmd:$PATH" brew list | grep kubernetes-cli14
-  - PATH="cmd:$PATH" brew list | grep firefox36
+  - cd Forumla
+  - PATH="cmd:$PATH" brew install *.rb
+  - cd ../Casks
+  - PATH="cmd:$PATH" brew cask install *.rb
