@@ -3,7 +3,7 @@ os: osx
 
 # Install Strap and then test installing packages works.
 script:
-  - cd Forumla
-  - PATH="cmd:$PATH" brew install *.rb
-  - cd ../Casks
-  - PATH="cmd:$PATH" brew cask install *.rb
+- PATH="cmd:$PATH" cd Forumla
+- PATH="cmd:$PATH" brew install *.rb
+- PATH="cmd:$PATH" cd ../Casks
+- PATH="cmd:$PATH" brew cask install *.rb
