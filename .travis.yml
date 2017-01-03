@@ -4,3 +4,4 @@ os: osx
 # Install Strap and then test installing packages works.
 script:
 - cd Formula && brew install *
+- cd Casks && brew cask install *
