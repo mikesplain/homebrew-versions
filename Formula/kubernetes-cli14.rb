@@ -1,8 +1,8 @@
 class KubernetesCli14 < Formula
   desc "Kubernetes command-line interface"
   homepage "http://kubernetes.io/"
-  url "https://github.com/kubernetes/kubernetes/archive/v1.4.7.tar.gz"
-  sha256 "2f5d4c5071109935386c550899ae85f338ee3a9d58cb1908d2d975d8a9c5baa9"
+  url "https://github.com/kubernetes/kubernetes/archive/v1.4.9.tar.gz"
+  sha256 "9e119b259610b206327c1486e95eaa100c02ce0b00f8fc33e477c28f4ae7d396"
 
   depends_on "go" => :build
 
