@@ -3,5 +3,6 @@ os: osx
 
 # Install Strap and then test installing packages works.
 script:
-- cd Formula && brew install *
-- cd ../Casks && brew cask install *
+- brew update
+- cd Formula && for i in *; do brew install $i; brew uninstall $i; done
+- cd ../Casks && for i in *; do brew cask install $i; brew cask uninstall $i; done
