@@ -1,4 +1,4 @@
-class KubernetesCli14 < Formula
+class KubernetesCli15 < Formula
   desc "Kubernetes command-line interface"
   homepage "http://kubernetes.io/"
   url "https://github.com/kubernetes/kubernetes/archive/v1.5.6.tar.gz"
