@@ -2,7 +2,7 @@ class Kops162 < Formula
   desc "Production Grade K8s Installation, Upgrades, and Management"
   homepage "https://github.com/kubernetes/kops"
   url "https://github.com/kubernetes/kops/archive/1.6.2.tar.gz"
-  sha256 "ec0444177089022690244755578ec664bccbdf61471974a683637aece45a7978"
+  sha256 "eeea1e0224ad5894c49559bba8de2999f57293a11c7de129f905dc6e95ffe1f4"
   head "https://github.com/kubernetes/kops.git"
 
   depends_on "go" => :build
